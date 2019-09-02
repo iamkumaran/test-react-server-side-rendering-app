@@ -1,0 +1,27 @@
+{
+  "name": "pwa-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server",
+    "analyze": "cross-env BUNDLE_ANALYZE=both next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.0.5",
+    "next-offline": "^4.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
